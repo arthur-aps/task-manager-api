@@ -12,8 +12,8 @@ install the packages by running:
 
 then run
 
-    npm build && npm run start
+    npm run build && npm run start
 
-to start the server. To start in developer mode:
+to build the optimized files and start the server. To start in developer mode:
 
     npm run start:dev
