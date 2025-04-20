@@ -1,0 +1,35 @@
+{
+  "name": "task-manager-api",
+  "version": "0.0.0",
+  "description": "A task manager API made with TypeScript, Express and Node",
+  "main": "server.ts",
+  "scripts": {
+    "build": "tsc --build",
+    "start": "node ./build/server.js",
+    "start:dev": "nodemon ./src/server.ts"
+  },
+  "keywords": [
+    "task",
+    "task-manager",
+    "api",
+    "typescript",
+    "ts",
+    "node",
+    "express",
+    "http",
+    "restful",
+    "rest"
+  ],
+  "author": "Arthur APS",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

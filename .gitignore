@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+dist/
+build/
+.env
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# OS / IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ts-node-dev / nodemon
+.tmp/
+
+# MacOS / Linux swap files
+*.swp
+*.swo
+
+# test coverage
+coverage/
